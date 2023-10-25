@@ -1,0 +1,29 @@
+.avatar{
+    display: block;
+    width: 150px;
+    height: 250px;
+    object-fit:cover;
+}
+body{
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.kartica{
+display: flex;
+justify-content: space-around;
+width: 500px;
+text-align: center;
+font-size: 22px;
+color: black;
+background: hsla(4, 48%, 94%, 1);
+
+background: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7E9E8", endColorstr="#E9F0AA", GradientType=1 );
+border-bottom: 8px solid #1c6db8;
+margin: 0 auto;
+}
